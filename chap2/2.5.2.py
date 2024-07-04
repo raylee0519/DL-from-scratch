@@ -1,4 +1,5 @@
-import NAND, OR, AND
+# 2.3.3 파일에서 게이트 import, 이때 2.3.3 파일을 model.py로 변경해야 import가능.
+from model import NAND, OR, AND
 
 def XOR(x1, x2):
     s1 = NAND(x1, x2)
