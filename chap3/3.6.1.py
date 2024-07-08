@@ -10,8 +10,8 @@
 # normalize : 입력 이미지를 정규화(0.0~1.0 사이의 값으로)
 # one_hot_label : 레이블을 원-핫 인코딩 형태로 저장
 
-import sys, os
-sys.path.append(os.pardir)  # 부모 디렉터리의 파일을 가져올 수 있도록 설정
+import sys
+sys.path.append("../DL-from-scratch")  # 부모 디렉터리의 파일을 가져올 수 있도록 설정
 from dataset.mnist import load_mnist
 
 (x_train, t_train), (x_test, t_test) = load_mnist(flatten=True, normalize=False)

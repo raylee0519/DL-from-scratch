@@ -1,5 +1,5 @@
-import sys, os
-sys.path.append(os.pardir)  # 부모 디렉터리의 파일을 가져올 수 있도록 
+import sys
+sys.path.append("../DL-from-scratch")  # 부모 디렉터리의 파일을 가져올 수 있도록 
 
 import numpy as np
 import pickle
