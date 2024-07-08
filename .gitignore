@@ -4,3 +4,7 @@ chap2/__pycache__/model.cpython-310.pyc
 common/__pycache__/functions.cpython-310.pyc
 
 common/__pycache__/gradient.cpython-310.pyc
+
+dataset/__pycache__/
+
+chap4/data/__pycache__/
